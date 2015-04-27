@@ -1,0 +1,152 @@
+/*
+Schriftarten von Google Fonts:
+Arvo, Baumans
+bzw. http://openfontlibrary.org/de
+
+*/
+
+* {
+    color: #303030;
+    text-align: justify;
+}
+
+html {
+    background-color: #045189;
+    font-family: 'Arvo', serif;
+}
+
+address {
+    font-style: normal;
+}
+
+.menu,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Baumans', cursive !important;
+}
+
+.container {
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    width: 87%;
+    padding-bottom: 1.5em;
+    background-color: #FFFFFF;
+}
+
+.banner {
+    margin-left: 20%;
+    margin-right: 20%;
+    max-height: 16%;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li >a {
+    text-decoration: none;
+    font-size: 1.1em;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    transition: background-color 1s ease;
+    background-color: white;
+}
+
+.menu ul li:hover a {
+    background-color: #D8111B;
+    color: white;
+}
+
+.menu ul li:first-child {
+    margin-left: 11.7%;
+}
+
+.title {
+    width: 87%;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    display: inline-block;
+}
+
+.bilder {
+    width: 24%;
+    margin-left: 1%;
+    float: right;
+}
+
+.text {
+    width: 75%;
+    float: left;
+}
+
+#text-kontakte {
+    width: 50%;
+    float: left;
+}
+
+.kontakt-footer {
+    margin-left: 6.5%;
+    float: left;
+}
+
+.impressum {
+    margin-right: 6.5%;
+    float: right;
+}
+
+.footer {
+    background-color: white;
+    width: 87%;
+    position: relative;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    bottom: 0px;
+}
+
+.maps {
+    margin-right: 6.5%;
+    float: right;
+}
+
+@media screen and (max-width: 768px) {
+    .menu ul li {
+        display: block;
+        width: 100% !important;
+        margin: 5px 0px 5px 0px !important;
+    }
+    .text {
+        width: 100%;
+    }
+    .footer {
+        height: 1em;
+    }
+    .kontakt-footer {
+        width: 100%;
+    }
+    #break {
+        display: block;
+    }
+    .impressum {
+        float: none;
+        margin: 5px 0px 5px 20px !important;
+        display: inline-block;
+        width: 100%;
+    }
+    #text-kontakte {
+        width: 100%;
+    }
+    .map {
+        float: left;
+        width: 100%;
+    }
+}
